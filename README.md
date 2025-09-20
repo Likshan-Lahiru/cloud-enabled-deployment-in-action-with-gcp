@@ -18,8 +18,10 @@ flowchart LR
     MediaService --> Storage["Local Disk"]
 ```
 
-
-
+## Student Details
+- Name               - I.Likshan Lahiru Lolitha Perera
+- Registration Number- 2301671025
+- Email Address      - lahiru212001@gmail.com
 
 
 ## Projects
