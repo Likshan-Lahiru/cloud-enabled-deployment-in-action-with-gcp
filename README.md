@@ -2,16 +2,24 @@
 
 This repository demonstrates a **microservices-based architecture** with Spring Boot backend services and a React frontend. It is designed for **cloud deployment (AWS/GCP)** and supports multiple data sources.
 
-flowchart LR
-User[User Browser] --> Frontend[React + Vite App]
 
-    Frontend --> CourseService[Course Service (Spring Boot + MySQL on GCP/AWS)]
-    Frontend --> StudentService[Student Service (Spring Boot + MongoDB)]
-    Frontend --> MediaService[Media Service (Spring Boot + Local)]
+Architecture Diagram
+
+```mermaid
+flowchart LR
+    User["User Browser"] --> Frontend["React + Vite App"]
+
+    Frontend --> CourseService["Course Service (Spring Boot + MySQL on GCP/AWS)"]
+    Frontend --> StudentService["Student Service (Spring Boot + MongoDB)"]
+    Frontend --> MediaService["Media Service (Spring Boot + Local)"]
     
-    CourseService --> MySQL[(Cloud SQL / RDS)]
-    StudentService --> MongoDB[(MongoDB Database)]
-    MediaService --> Storage[(Local Disk)]
+    CourseService --> MySQL["Cloud SQL / RDS"]
+    StudentService --> MongoDB["MongoDB Database"]
+    MediaService --> Storage["Local Disk"]
+```
+
+
+
 
 
 ## Projects
