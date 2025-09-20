@@ -5,6 +5,7 @@ This repository demonstrates a **microservices-based architecture** with Spring 
 flowchart LR
 User[User Browser] --> Frontend[React + Vite App]
 
+```mermaid
     Frontend --> CourseService[Course Service (Spring Boot + MySQL on GCP/AWS)]
     Frontend --> StudentService[Student Service (Spring Boot + MongoDB)]
     Frontend --> MediaService[Media Service (Spring Boot + Local)]
@@ -12,7 +13,7 @@ User[User Browser] --> Frontend[React + Vite App]
     CourseService --> MySQL[(Cloud SQL / RDS)]
     StudentService --> MongoDB[(MongoDB Database)]
     MediaService --> Storage[(Local Disk)]
-
+```
 
 ## Projects
 
