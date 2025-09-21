@@ -22,6 +22,7 @@ flowchart LR
 - Name               - I.Likshan Lahiru Lolitha Perera
 - Registration Number- 2301671025
 - Email Address      - lahiru212001@gmail.com
+- Contact            - +94774703170
 
 
 ## Projects
